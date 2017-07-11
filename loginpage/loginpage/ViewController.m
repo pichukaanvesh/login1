@@ -21,6 +21,10 @@
     label1.backgroundColor=[UIColor redColor];
     label1.text=@"hai how are you";
     [self.view addSubview:label1];
+    UILabel *label2=[[UILabel alloc]initWithFrame:CGRectMake(140, 40, 100, 30)];
+    label1.backgroundColor=[UIColor blueColor];
+    label1.text=@"hai how are you";
+    [self.view addSubview:label2];
 }
 
 
