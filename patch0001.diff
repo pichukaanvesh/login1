@@ -1,0 +1,27 @@
+From 75f729465377259a9c1ad4d944fe32803230a12f Mon Sep 17 00:00:00 2001
+From: Public Users <pichukaanvesh@gmail.com>
+Date: Tue, 11 Jul 2017 12:10:05 +0530
+Subject: [PATCH] added one label
+
+---
+ loginpage/loginpage/ViewController.m | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/loginpage/loginpage/ViewController.m b/loginpage/loginpage/ViewController.m
+index 793f920..3b1dbb6 100644
+--- a/loginpage/loginpage/ViewController.m
++++ b/loginpage/loginpage/ViewController.m
+@@ -17,6 +17,10 @@
+ - (void)viewDidLoad {
+     [super viewDidLoad];
+     // Do any additional setup after loading the view, typically from a nib.
++    UILabel *label1=[[UILabel alloc]initWithFrame:CGRectMake(40, 40, 100, 30)];
++    label1.backgroundColor=[UIColor redColor];
++    label1.text=@"hai how are you";
++    [self.view addSubview:label1];
+ }
+ 
+ 
+-- 
+2.10.1
+
